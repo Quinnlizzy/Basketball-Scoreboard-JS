@@ -33,8 +33,4 @@ function parseDocument(document)
         return wholeNumbersMatches.length;
     };
     let wholeNumbers = wholeNumbersMatches;
-    
-    //number of spaces
-    let numSpaces = documentWithoutLineOne.match(/ /g).length;
-    
- 
+
