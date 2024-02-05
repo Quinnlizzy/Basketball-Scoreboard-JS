@@ -37,7 +37,4 @@ function parseDocument(document)
     //number of spaces
     let numSpaces = documentWithoutLineOne.match(/ /g).length;
     
-    //number of special characters
-    let numSpec = documentWithoutLineOne.match(/[^\w\s]/g).length;
-    
-
+ 
