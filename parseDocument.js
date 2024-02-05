@@ -13,7 +13,3 @@ function parseDocument(document)
     //number of letters
     //all case, a-z match
     let numLetters = documentWithoutLineOne.match(/[a-zA-Z]/g).length;
-    
-    //upp
-    let numUppLetters = documentWithoutLineOne.match(/[A-Z]/g).length;
-
