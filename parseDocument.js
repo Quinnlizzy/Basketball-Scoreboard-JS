@@ -67,7 +67,3 @@ function parseDocument(document)
     let sixLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{6}\b/g).length
     let sevenLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{7}\b/g).length
     let eightLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{8}\b/g).length
-    
-    //report formation
-    var report= "Number of Lines: " + numLines + "\n";
-  
