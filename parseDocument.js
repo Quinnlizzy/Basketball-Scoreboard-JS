@@ -20,10 +20,3 @@ function parseDocument(document)
     //low
     let numLowLetters = documentWithoutLineOne.match(/[a-z]/g).length;
     
-    //number of digits - match process produces null not 0?
-    let numDigitsMatches = documentWithoutLineOne.match(/\d/g);
-    if (numDigitsMatches !== null) {
-        return numDigitsMatches.length;
-    }
-    let numDigits = numDigitsMatches;
-
