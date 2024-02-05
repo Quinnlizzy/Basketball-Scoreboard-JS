@@ -84,11 +84,3 @@ function parseDocument(document)
         report += "Number of one letter words: " + oneLetterWords + "\n";
         report += "Number of two letter words: " + twoLetterWords + "\n";
         report += "Number of three letter words: " + threeLetterWords + "\n";
-        report += "Number of four letter words: " + fourLetterWords + "\n";
-        report += "Number of five letter words: " + fiveLetterWords + "\n";
-        report += "Number of six letter words: " + sixLetterWords + "\n";
-        report += "Number of seven letter words: " + sevenLetterWords + "\n";
-        report += "Number of eight letter words: " + eightLetterWords + "\n";
-        
-    return report;
-}
