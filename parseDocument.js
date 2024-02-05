@@ -70,10 +70,4 @@ function parseDocument(document)
     
     //report formation
     var report= "Number of Lines: " + numLines + "\n";
-        report += "Number of Characters(total): " + numCharacters + "\n";
-        report += "Number of Letters (any case): " + numLetters + "\n";
-        report += "Number of Letters (Upper case): " + numUppLetters + "\n";
-        report += "Number of Letters (Lower case): " + numLowLetters + "\n";
-        report += "Number of individual numerical digits: " + numDigits + "\n";        
-        report += "Number of whole numbers: " + wholeNumbers + "\n";
-        report += "Number of spaces: " + numSpaces + "\n";
+  
