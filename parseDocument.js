@@ -51,10 +51,4 @@ function parseDocument(document)
     let words = documentWithoutLineOne.split(/\s+/);
     let numWords = words.length;
     
-    //number of monetary values
-    let costings = documentWithoutLineOne.match(/[£$€]/g);
-    if (costings !== null) {
-        return costings.length;
-    };
-    let numCostings = costings;
-    
+ 
