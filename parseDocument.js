@@ -77,10 +77,3 @@ function parseDocument(document)
         report += "Number of individual numerical digits: " + numDigits + "\n";        
         report += "Number of whole numbers: " + wholeNumbers + "\n";
         report += "Number of spaces: " + numSpaces + "\n";
-        report += "Number of special characters: " + numSpec + "\n";
-        report += "Number of questions: " + numQuestion + "\n";
-        report += "Wordcount: " + numWords + "\n";
-        report += "Number of Costings present: " + numCostings + "\n";
-        report += "Number of one letter words: " + oneLetterWords + "\n";
-        report += "Number of two letter words: " + twoLetterWords + "\n";
-        report += "Number of three letter words: " + threeLetterWords + "\n";
