@@ -47,8 +47,4 @@ function parseDocument(document)
     };
     let numQuestion = numQuestionMarks;
     
-    //number of words (total)
-    let words = documentWithoutLineOne.split(/\s+/);
-    let numWords = words.length;
-    
- 
+
