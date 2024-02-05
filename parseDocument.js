@@ -16,7 +16,4 @@ function parseDocument(document)
     
     //upp
     let numUppLetters = documentWithoutLineOne.match(/[A-Z]/g).length;
-    
-    //low
-    let numLowLetters = documentWithoutLineOne.match(/[a-z]/g).length;
-    
+
