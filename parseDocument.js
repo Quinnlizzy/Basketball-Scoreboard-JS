@@ -58,12 +58,3 @@ function parseDocument(document)
     };
     let numCostings = costings;
     
-    //number of words of (x) length
-    let oneLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]\b/g).length
-    let twoLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{2}\b/g).length
-    let threeLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{3}\b/g).length
-    let fourLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{4}\b/g).length
-    let fiveLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{5}\b/g).length
-    let sixLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{6}\b/g).length
-    let sevenLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{7}\b/g).length
-    let eightLetterWords = documentWithoutLineOne.match(/\b[a-zA-Z]{8}\b/g).length
