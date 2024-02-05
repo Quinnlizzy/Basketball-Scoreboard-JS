@@ -9,7 +9,3 @@ function parseDocument(document)
     //number of characters - just docu .length?
     
     let numCharacters = documentWithoutLineOne.length;
-    
-    //number of letters
-    //all case, a-z match
-    let numLetters = documentWithoutLineOne.match(/[a-zA-Z]/g).length;
