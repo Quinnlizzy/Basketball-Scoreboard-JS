@@ -26,11 +26,4 @@ function parseDocument(document)
         return numDigitsMatches.length;
     }
     let numDigits = numDigitsMatches;
-    
-    //number of whole numbers? (maybe) - will need null handling again
-    let wholeNumbersMatches = documentWithoutLineOne.match(/\b\d+\b/g)
-    if (wholeNumbersMatches !== null) {
-        return wholeNumbersMatches.length;
-    };
-    let wholeNumbers = wholeNumbersMatches;
 
